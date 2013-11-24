@@ -34,7 +34,9 @@
 		<feature name="http://api.phonegap.com/1.0/file"/>
 		<feature name="http://api.phonegap.com/1.0/geolocation"/>
 		<feature name="http://api.phonegap.com/1.0/notification"/>
-		<gap:plugin name="org.apache.cordova.Storage" />
+			<feature name="Storage">
+    <param name="android-package" value="org.apache.cordova.Storage" />
+</feature>
 		<gap:plugin name="org.apache.cordova.camera"  />
 		<gap:plugin name="org.apache.cordova.geolocation"  />
 		<gap:plugin name="org.apache.cordova.device"  />
